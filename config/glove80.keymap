@@ -159,7 +159,7 @@
     };
 
     combos {
-        compatibile = "zmk,combos"
+        compatible = "zmk,combos";
 
         combo_caps_word {
           timeout-ms = <50>;
