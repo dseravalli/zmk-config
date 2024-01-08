@@ -303,9 +303,17 @@
         };
 
         // (
-        combo_rpar {
+        combo_lpar {
           timeout-ms = <50>;
           key-positions = <POS_RH_C2R4 POS_RH_C3R4>;
+          bindings = <&kp RPAR>;
+          layers = <DEFAULT>;
+        };
+
+        // )
+        combo_rpar {
+          timeout-ms = <50>;
+          key-positions = <POS_RH_C4R4 POS_RH_C3R4>;
           bindings = <&kp RPAR>;
           layers = <DEFAULT>;
         };
