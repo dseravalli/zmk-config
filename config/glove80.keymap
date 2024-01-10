@@ -355,12 +355,12 @@
         lower_layer {
             label = "Lower";
             bindings = <
- &trans             &trans             &trans             &trans             &trans                                                                      &trans  &trans     &trans    &trans    &trans
- &trans             &trans             &trans             &trans             &trans  &trans                                                    &trans    &trans  &trans     &trans    &trans    &trans
- &trans  &kp LC(LA(LG(Q)))  &kp LC(LA(LG(W)))  &kp LC(LA(LG(E)))      &kp LA(LG(A))  &trans                                                  &kp LBKT  &kp RBKT  &kp LBRC &kp RBRC  &kp LPAR  &kp RPAR
- &trans  &kp LC(LA(LG(A)))  &kp LC(LA(LG(S)))  &kp LC(LA(LG(D)))  &kp LC(LA(LG(F)))  &trans                                                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans    &trans
- &trans  &kp LC(LA(LG(Z)))  &kp LC(LA(LG(X)))  &kp LC(LA(LG(C)))      &kp LA(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans    &trans    &trans
- &trans             &trans             &trans             &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans    &trans    &trans
+ &trans             &trans             &trans             &trans             &trans                                                                      &trans    &trans     &trans    &trans    &trans
+ &trans             &trans             &trans             &trans             &trans  &trans                                                    &trans    &trans    &trans     &trans    &trans    &trans
+ &trans  &kp LC(LA(LG(Q)))  &kp LC(LA(LG(W)))  &kp LC(LA(LG(E)))      &kp LA(LG(A))  &trans                                                  &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC  &kp LPAR  &kp RPAR
+ &trans  &kp LC(LA(LG(A)))  &kp LC(LA(LG(S)))  &kp LC(LA(LG(D)))  &kp LC(LA(LG(F)))  &trans                                                  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT    &trans    &trans
+ &trans  &kp LC(LA(LG(Z)))  &kp LC(LA(LG(X)))  &kp LC(LA(LG(C)))      &kp LA(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans     &trans    &trans    &trans
+ &trans             &trans             &trans             &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans     &trans    &trans    &trans
             >;
         };
 
