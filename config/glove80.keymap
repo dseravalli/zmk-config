@@ -343,24 +343,24 @@
         base_layer {
             label = "Base";
             bindings = <
-               &kp F1               &kp F2              &kp F3              &kp F4               &kp F5                                                                                               &kp F6               &kp F7               &kp F8                   &kp F9               &kp F10
-            &kp EQUAL               &kp N1              &kp N2              &kp N3               &kp N4  &kp N5                                                                 &kp N6                &kp N7               &kp N8               &kp N9                   &kp N0             &kp MINUS
-              &kp TAB                &kp Q               &kp W               &kp E                &kp R   &kp T                                                                  &kp Y                 &kp U                &kp I                &kp O                    &kp P              &kp BSLH
-              &mt LCTRL ESC &homey_left LCTRL A  &homey_left LALT S  &homey_left LGUI D  &index_left LSHFT F   &kp G                                                                  &kp H  &index_right RSHFT J  &homey_right RGUI K  &homey_right RALT L  &homey_right RCTRL SEMI               &kp SQT
-            &kp LSHFT                &kp Z               &kp X               &kp C                &kp V   &kp B  &kp LGUI  &kp LCTRL  &kp LALT  &kp RALT  &kp RCTRL   &kp RGUI   &kp N                 &kp M            &kp COMMA              &kp DOT                 &kp FSLH             &kp RSHFT
- &magic MAGIC 0               &trans       &kp LS(GRAVE)             &kp ESC              &kp TAB          &kp BSPC      &lt LOWER ESC     &mo RAISE     &none    &kp RET  &kp SPACE                  &kp LS(LBKT)         &kp LS(RBKT)             &kp LBKT                 &kp RBKT  &magic MAGIC 0
+&kp F1                      &kp F2              &kp F3              &kp F4               &kp F5                                                                                                     &kp F6               &kp F7               &kp F8                   &kp F9         &kp F10
+&kp EQUAL                   &kp N1              &kp N2              &kp N3               &kp N4  &kp N5                                                                       &kp N6                &kp N7               &kp N8               &kp N9                   &kp N0       &kp MINUS
+&kp TAB                      &kp Q               &kp W               &kp E                &kp R   &kp T                                                                        &kp Y                 &kp U                &kp I                &kp O                    &kp P        &kp BSLH
+&mt LCTRL ESC  &homey_left LCTRL A  &homey_left LALT S  &homey_left LGUI D  &index_left LSHFT F   &kp G                                                                        &kp H  &index_right RSHFT J  &homey_right RGUI K  &homey_right RALT L  &homey_right RCTRL SEMI         &kp SQT
+&kp LSHFT                    &kp Z               &kp X               &kp C                &kp V   &kp B  &kp LGUI      &kp LCTRL    &kp LALT  &kp RALT  &kp RCTRL   &kp RGUI   &kp N                 &kp M            &kp COMMA              &kp DOT                 &kp FSLH       &kp RSHFT
+&magic MAGIC 0            &kp HOME             &kp END           &kp PG_UP            &kp PG_DN          &kp BSPC  &lt LOWER ESC  &lt RAISE TAB  &none    &kp RET  &kp SPACE                         &none                &none                &none                    &none  &magic MAGIC 0
             >;
-        };
+    };
 
         lower_layer {
             label = "Lower";
             bindings = <
- &trans             &trans             &trans             &trans             &trans                                                                      &trans  &trans     &trans  &trans  &trans
- &trans             &trans             &trans             &trans             &trans  &trans                                                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &kp LC(LA(LG(Q)))  &kp LC(LA(LG(W)))  &kp LC(LA(LG(E)))      &kp LA(LG(A))  &trans                                                    &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &kp LC(LA(LG(A)))  &kp LC(LA(LG(S)))  &kp LC(LA(LG(D)))  &kp LC(LA(LG(F)))  &trans                                                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans  &kp LC(LA(LG(Z)))  &kp LC(LA(LG(X)))  &kp LC(LA(LG(C)))      &kp LA(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans
- &trans             &trans             &trans             &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans  &trans
+ &trans             &trans             &trans             &trans             &trans                                                                      &trans  &trans     &trans    &trans    &trans
+ &trans             &trans             &trans             &trans             &trans  &trans                                                    &trans    &trans  &trans     &trans    &trans    &trans
+ &trans  &kp LC(LA(LG(Q)))  &kp LC(LA(LG(W)))  &kp LC(LA(LG(E)))      &kp LA(LG(A))  &trans                                                  &kp LBKT  &kp RBKT  &kp LBRC &kp RBRC  &kp LPAR  &kp RPAR
+ &trans  &kp LC(LA(LG(A)))  &kp LC(LA(LG(S)))  &kp LC(LA(LG(D)))  &kp LC(LA(LG(F)))  &trans                                                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans    &trans
+ &trans  &kp LC(LA(LG(Z)))  &kp LC(LA(LG(X)))  &kp LC(LA(LG(C)))      &kp LA(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans    &trans    &trans
+ &trans             &trans             &trans             &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans    &trans    &trans
             >;
         };
 
