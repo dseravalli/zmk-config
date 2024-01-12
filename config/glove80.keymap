@@ -348,7 +348,7 @@
               &kp TAB               &kp Q        &kp W        &kp E          &kp R   &kp T                                                                           &kp Y          &kp U   &hmr MEH I        &kp O            &kp P        &kp BSLH
               &mt LCTRL ESC  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hmli LSHFT F   &kp G                                                                           &kp H  &hmri RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI         &kp SQT
               &kp LSHFT             &kp Z        &kp X        &kp C          &kp V   &kp B  &kp LGUI      &kp LCTRL       &kp LALT  &kp RALT  &kp RCTRL   &kp RGUI   &kp N          &kp M    &kp COMMA      &kp DOT         &kp FSLH       &kp RSHFT
-              &magic MAGIC 0     &kp HOME      &kp END    &kp PG_UP        p PG_DN          &kp BSPC  &lt LOWER ESC  &lt RAISE TAB     &none    &kp RET  &kp SPACE                  &none        &none        &none            &none  &magic MAGIC 0
+              &magic MAGIC 0     &kp HOME      &kp END    &kp PG_UP      &kp PG_DN          &kp BSPC  &lt LOWER ESC  &lt RAISE TAB     &none    &kp RET  &kp SPACE                  &none        &none        &none            &none  &magic MAGIC 0
             >;
     };
 
