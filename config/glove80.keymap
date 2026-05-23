@@ -344,11 +344,11 @@
             label = "Base";
             bindings = <
               &kp F1               &kp F2       &kp F3       &kp F4         &kp F5                                                                                                 &kp F6       &kp F7       &kp F8           &kp F9         &kp F10
-              &kp EQUAL            &kp N1       &kp N2       &kp N3         &kp N4  &kp N5                                                                          &kp N6         &kp N7       &kp N8       &kp N9           &kp N0       &kp MINUS
-              &kp TAB               &kp Q        &kp W        &kp E          &kp R   &kp T                                                                           &kp Y          &kp U   &hmr MEH I        &kp O            &kp P        &kp BSLH
-              &mt LCTRL ESC  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hmli LSHFT F   &kp G                                                                           &kp H  &hmri RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI         &kp SQT
-              &kp LSHFT             &kp Z        &kp X        &kp C          &kp V   &kp B  &kp LGUI      &kp LCTRL       &kp LALT  &kp RALT  &kp RCTRL   &kp RGUI   &kp N          &kp M    &kp COMMA      &kp DOT         &kp FSLH       &kp RSHFT
-              &magic MAGIC 0     &kp HOME      &kp END    &kp PG_UP      &kp PG_DN          &kp BSPC  &lt LOWER ESC  &lt RAISE TAB     &none    &kp RET  &kp SPACE                  &none        &none        &none            &none  &magic MAGIC 0
+              &kp EQUAL            &kp N1       &kp N2       &kp N3         &kp N4  &kp N5                                                                    &kp N6         &kp N7       &kp N8       &kp N9           &kp N0       &kp MINUS
+              &kp TAB               &kp Q        &kp W        &kp E          &kp R   &kp T                                                                    &kp Y          &kp U   &hmr MEH I        &kp O            &kp P        &kp BSLH
+              &mt LCTRL ESC  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hmli LSHFT F   &kp G                                                                    &kp H  &hmri RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI         &kp SQT
+              &kp LSHFT             &kp Z        &kp X        &kp C          &kp V   &kp B  &kp ESC   &kp UP   &kp DOWN      &kp LEFT  &kp RIGHT &kp RET      &kp N      &kp M    &kp COMMA      &kp DOT         &kp FSLH       &kp RSHFT
+              &magic MAGIC 0     &kp HOME      &kp END    &kp PG_UP      &kp PG_DN          &kp BSPC  &kp DEL  &mo LOWER     &mo LOWER &kp TAB   &kp SPACE                  &none        &none        &none            &none  &magic MAGIC 0
             >;
     };
 
